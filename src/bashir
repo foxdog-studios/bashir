@@ -22,7 +22,7 @@ BASH_PATH = '/bin/bash'
 
 def main(argv=None):
     '''
-    Execute a bash scrit from the directory its stored in.
+    Execute a bash script from the directory its stored in.
 
     :param argv: Optional. A list of command-line arguments for bash.
                  The first is assumed to be a path to a script. The
