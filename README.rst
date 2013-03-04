@@ -1,15 +1,32 @@
-Installation
-============
+.. This work by Foxdog Studios Ltd is licensed under a Creative Commons
+   Attribution 3.0 Unported License.
 
-Bashir can be installed by ``setup-arch.sh`` scripts by including the code
-snippet below.
+Bashir
+======
+
+Execute Bash scripts from the directory they're stored in.
+
+Installation
+------------
+
+To install, run
 
 .. code-block:: bash
 
-    if ! which bashir &> /dev/null; then
-        cd /tmp
-        git clone gitolite@foxdogstudios.com:bashir
-        ./bashir/scripts/install.sh
-        rm -fr bashir
-    fi
+    $ ./scripts/install.sh
+
+Usage
+-----
+
+Replace the standard shabang
+
+.. code-block:: bash
+
+    #!/bin/bash
+
+with
+
+.. code-block:: bash
+
+    #!/usr/bin/bashir
 
