@@ -49,8 +49,6 @@ rm --force --recursive -- "${test_dir}"
 ./scripts/install.sh -u
 
 # Report
-pylint src/bashir
-
 if $test_success; then
     echo 'Test successful'
 else
